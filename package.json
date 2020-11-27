@@ -1,0 +1,30 @@
+{
+  "name": "i18n-example",
+  "version": "1.0.0",
+  "description": "Testing tool to ensure visual integrity of translated web pages.",
+  "main": "template.html",
+  "scripts": {
+    "start": "parcel template.html --open",
+    "build": "parcel build template.html"
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1jayyaj1/Translatify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1jayyaj1/Translatify/issues"
+  },
+  "homepage": "https://github.com/1jayyaj1/Translatify#readme"
+}
