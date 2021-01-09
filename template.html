@@ -1,50 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" />
-  </head>
-
-  <body>
-    <form>
-      <fieldset>
-        <legend>Choose a language:</legend>
-
-        <label>
-          <input type="radio" name="lang" value="en" checked /> English
-        </label>
-        <label> <input type="radio" name="lang" value="fr" /> French </label>
-        <label> <input type="radio" name="lang" value="es" /> Spanish </label>
-      </fieldset>
-    </form>
-    <main>
-      <article>
-        <h1 id="title" data-i18n="title">How To Cook A Juicy Chicken Breast</h1>
-        <button onclick="getTextWidth()"> 
-        Calculate text width 
-        </button>
-        <p> 
-            Width of the header content is:  
-            <span class="output"></span> 
-        </p> 
-        <p data-i18n="content">
-          There’s a big difference between juicy chicken breasts and rubbery
-          chicken breasts. Obviously, you want to avoid the latter at all costs.
-          Follow these 4 steps and you’re gold. You want to add protein to
-          favorites like Caesar salad or fix up a quick chicken salad or club
-          sandwich? Try this method and savor the results.
-        </p>
-      </article>
-      <aside>
-        <h2 data-i18n="ingredients.title">Ingredients</h2>
-        <ul>
-          <li data-i18n="ingredients.$0">1 pound boneless chicken breasts</li>
-          <li data-i18n="ingredients.$1">2 teaspoons olive oil</li>
-          <li data-i18n="ingredients.$2">salt and pepper</li>
-        </ul>
-      </aside>
-    </main>
-
-    <script src="src/js/index.js"></script>
-  </body>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.scss">
+        <title>Lit Test Page</title>
+    </head>
+    <body>
+        <h1>Lit Test Page</h1>
+        <div class="outer">
+            <p class="inner">Hi my name is Jay and I like pineapples</p>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
