@@ -6,7 +6,7 @@ function buildTranslationObject(elementText){
           "method": "POST",
           "headers": {
             "x-rapidapi-host": "google-translate1.p.rapidapi.com",
-            "x-rapidapi-key": "06341a0ca9msh786bbf40c61d66cp18aaf8jsn3dbd3eb60ff9",
+            "x-rapidapi-key": "",
             "content-type": "application/x-www-form-urlencoded"
           },
           "data": {
